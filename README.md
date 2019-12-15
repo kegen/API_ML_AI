@@ -71,4 +71,34 @@
 
 - 一张黑白战士照片
 
-![image](https://note.youdao.com/ynoteshare1/index.html?id=40f6d2b1257f58c54e70d52442f75b33&type=note)
+![image](https://github.com/kegen/API_ML_AI/blob/master/11.png)
+
+- 经过上色之后
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/1.png)
+
+- 可见各方面颜色清晰，对比度高，无颜色混乱现象
+
+- 两张网友说五官相似的明星照片进行相似度识别
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/22.png)
+
+- 黄渤的两张不同照片
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/2.png)
+
+- 这三张照片的背景颜色都比较鲜明和强烈，并没有影响到人脸对比的识别，由此可见，人脸识别的准确度还是很高的。
+
+- 一张自拍上有许多修饰物
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/3.png)
+
+- 选中想要遮挡的修饰物
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/33.png)
+
+- 修复后
+![image](https://github.com/kegen/API_ML_AI/blob/master/333.png)
+
+- 图像修复可以同时遮挡多个区域。
+
