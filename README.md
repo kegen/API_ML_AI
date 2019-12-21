@@ -113,3 +113,57 @@
 --------
 
 ## 原型
+
+### 交互及界面设计
+
+- 点击蓝色文字可以跳转[原型](http://nfunm037.gitee.io/api_ml_ai)页面，若交互效果点击无效，可刷新页面再次点击。
+
+- [下载产品原型文档](https://github.com/kegen/API_ML_AI/blob/master/api%E5%8E%9F%E5%9E%8B.rp)
+
+- API运用情况
+1、黑白图像上色功能运用了**黑白图像上色api**。
+2、图像修复功能运用了**图像修复api**。
+3、人脸对比功能运用了**人脸对比api**。
+
+- 口头操作说明
+
+>用户进入**图美**，有**黑白图像上色**、**图像修复**和**人脸对比**三个功能可供用户选择，随机点击一个功能进入之后，可在本地图库找到自己想要上色/修复/对比的图片，其中对比需要两张图片，修复需要选中修复区域，之后点击马上上色/修复/对比，即可立即生成上色/修复/对比后的图片，用户可以将其保存在本地图库。
+
+
+-------
+
+- **载入页**
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E8%BD%BD%E5%85%A5.png)
+
+- **功能选择页**
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E5%8A%9F%E8%83%BD.png)
+
+- **功能主页面**
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E9%BB%91%E7%99%BD%E4%B8%8A%E8%89%B2.png)
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E4%BF%AE%E5%A4%8D.png)
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E5%AF%B9%E6%AF%94.png)
+
+- **图库选择页**
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E9%BB%91%E7%99%BD%E4%B8%8A%E8%89%B2%E5%9B%BE%E5%BA%93.png)
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E5%AF%B9%E6%AF%94%E5%9B%BE%E5%BA%93.png)
+
+- **选择成功页**
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E9%BB%91%E7%99%BD%E5%8A%9F%E8%83%BD.png)
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E5%AF%B9%E6%AF%94%E5%8A%9F%E8%83%BD.png)
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E4%BF%AE%E5%A4%8D%E5%8A%9F%E8%83%BD.png)
+
+- **功能实现成功**
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E4%BF%AE%E5%A4%8D%E6%88%90%E5%8A%9F.png)
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E5%AF%B9%E6%AF%94%E6%88%90%E5%8A%9F.png)
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E9%BB%91%E7%99%BD%E6%88%90%E5%8A%9F.png)
+
+
+----
+
+## 
