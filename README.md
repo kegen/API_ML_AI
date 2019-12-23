@@ -165,4 +165,149 @@
 
 ----
 
-## 
+## API 产品使用关键AI或机器学习之API的输出入展示
+
+--------
+
+### 使用水平
+
+--------
+
+#### 百度黑白图像上色API
+
+- 接口描述：智能识别黑白图像内容并填充色彩，使黑白图像变得鲜活。
+
+- 输入
+
+```
+# encoding:utf-8
+
+import requests
+import base64
+
+'''
+黑白图像上色
+'''
+
+request_url = "https://aip.baidubce.com/rest/2.0/image-process/v1/colourize"
+# 二进制方式打开图片文件
+f = open('[本地文件]', 'rb')
+img = base64.b64encode(f.read())
+
+params = {"image":img}
+access_token = '[调用鉴权接口获取的token]'
+request_url = request_url + "?access_token=" + access_token
+headers = {'content-type': 'application/x-www-form-urlencoded'}
+response = requests.post(request_url, data=params, headers=headers)
+if response:
+    print (response.json())
+```
+
+- 输出
+
+```
+{
+	"log_id": "6876747463538438254",
+	"image": "处理后图片的Base64编码"
+}
+```
+
+- 测试
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E9%BB%91%E7%99%BD.png）
+![image](https://github.com/kegen/API_ML_AI/blob/master/11.png)
+![image](https://github.com/kegen/API_ML_AI/blob/master/1.png)
+
+
+#### 百度人脸对比API
+
+- 接口说明：用于比对多张图片中的人脸相似度并返回两两比对的得分，可用于判断两张脸是否是同一人的可能性大小。
+
+- 输入
+
+```
+# encoding:utf-8
+
+import requests
+
+'''
+人脸对比
+'''
+
+request_url = "https://aip.baidubce.com/rest/2.0/face/v3/match"
+
+params = "[{\"image\": \"sfasq35sadvsvqwr5q...\", \"image_type\": \"BASE64\", \"face_type\": \"LIVE\", \"quality_control\": \"LOW\"},
+ {\"image\": \"sfasq35sadvsvqwr5q...\", \"image_type\": \"BASE64\", \"face_type\": \"IDCARD\", \"quality_control\": \"LOW\"}]"
+access_token = '[调用鉴权接口获取的token]'
+request_url = request_url + "?access_token=" + access_token
+headers = {'content-type': 'application/json'}
+response = requests.post(request_url, data=params, headers=headers)
+if response:
+    print (response.json())
+```
+
+- 输出
+
+```
+{
+    "score": 44.3,
+    "face_list": [  //返回的顺序与传入的顺序保持一致
+        {
+            "face_token": "fid1"
+        },
+        {
+            "face_token": "fid2"
+        }
+    ]
+}
+```
+
+- 测试
+![image](https://github.com/kegen/API_ML_AI/blob/master/22.png)
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/2.png)
+
+
+#### 百度图像修复API
+
+- 接口说明：去除图片中不需要的遮挡物，并用背景内容填充，提高图像质量。
+
+- 输入
+
+```
+# encoding:utf-8
+
+import requests
+
+'''
+图像修复
+'''
+
+request_url = "https://aip.baidubce.com/rest/2.0/image-process/v1/inpainting"
+
+params = "{\"inpainting_type\":\"rectangle\",\"rectangle\":[{\"width\":92,\"top\":95,\"height\":36,\"left\":543}],\"image\":\"图片base64编码\"}"
+access_token = '[调用鉴权接口获取的token]'
+request_url = request_url + "?access_token=" + access_token
+headers = {'content-type': 'application/json'}
+response = requests.post(request_url, data=params, headers=headers)
+if response:
+    print (response.json())
+```
+
+- 输出
+
+```
+{
+     "log_id": "6876747463538438254",
+     "rect_image": ”处理后图片的Base64编码“
+}
+```
+
+- 测试
+![image](https://github.com/kegen/API_ML_AI/blob/master/33.png)
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/333.png)
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E4%BF%AE%E5%A4%8D%E6%B5%8B%E8%AF%95.png）
+
+--------
+
