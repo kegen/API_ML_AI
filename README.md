@@ -213,7 +213,8 @@ if response:
 ```
 
 - 测试
-![image](https://github.com/kegen/API_ML_AI/blob/master/%E9%BB%91%E7%99%BD.png）
+
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E9%BB%91%E7%99%BD.png)
 ![image](https://github.com/kegen/API_ML_AI/blob/master/11.png)
 ![image](https://github.com/kegen/API_ML_AI/blob/master/1.png)
 
@@ -307,7 +308,7 @@ if response:
 
 ![image](https://github.com/kegen/API_ML_AI/blob/master/333.png)
 
-![image](https://github.com/kegen/API_ML_AI/blob/master/%E4%BF%AE%E5%A4%8D%E6%B5%8B%E8%AF%95.png）
+![image](https://github.com/kegen/API_ML_AI/blob/master/%E4%BF%AE%E5%A4%8D%E6%B5%8B%E8%AF%95.png)
 
 --------
 
