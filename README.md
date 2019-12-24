@@ -328,6 +328,32 @@ if response:
 
 #### 百度人脸对比
 
+- ![image](https://github.com/kegen/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E4%BB%B7%E6%A0%BC%E8%A1%A8.png)
+
 ##### face++人脸比对API：
 
-- 
+- ![image](https://github.com/kegen/API_ML_AI/blob/master/face%2B%2B%E4%BB%B7%E6%A0%BC%E8%A1%A8.png)
+
+##### 阿里人脸比对API：
+
+- ![image](https://github.com/kegen/API_ML_AI/blob/master/%E9%98%BF%E9%87%8C%E4%BB%B7%E6%A0%BC%E8%A1%A8.png)
+
+-------
+
+### 使用后风险报告
+
+- 黑白图像上色API
+
+黑白图像上色API是百度AI的新品，价格与常规API价格相同，在上色方面**准确率高达90%**，不足的是，在面对**全黑/全白** 图片时，如果图片无明显特征或对比度鲜明，会出现上色紊乱的现象。
+
+- 图像修复API
+
+图像修复API是百度还在邀请测试的产品，价格为正常价格，对图片上遮挡物的清除为**100%清除**，不足之处在于，清除之后会对背景出现一些色块混杂，导致背景不太自然。
+
+- 人脸对比API
+
+价格：FACE++>百度>阿里云。百度每天有500次免费调度的额度，而阿里云只有5次。
+
+准确度及功能：百度>FACE++>阿里云。百度的准确度是最高的，并且相较于其他两家，百度会返回提供给用户具体相似度的百分点，让用户更清晰的看得出区别。
+
+- 因此我们三个API都选择百度AI。
