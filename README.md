@@ -78,9 +78,13 @@
 
 - 一张黑白战士照片
 
+- 1-1
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/11.png)
 
 - 经过上色之后
+
+- 1-2
 
 ![image](https://github.com/kegen/API_ML_AI/blob/master/1.png)
 
@@ -88,9 +92,13 @@
 
 - 两张网友说五官相似的明星照片进行相似度识别
 
+- 1-3
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/22.png)
 
 - 黄渤的两张不同照片
+
+- 1-4
 
 ![image](https://github.com/kegen/API_ML_AI/blob/master/2.png)
 
@@ -98,13 +106,20 @@
 
 - 一张自拍上有许多修饰物
 
+- 1-5
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/3.png)
 
 - 选中想要遮挡的修饰物
 
+- 1-6
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/33.png)
 
 - 修复后
+
+- 1-7
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/333.png)
 
 - 图像修复可以同时遮挡多个区域。
@@ -133,33 +148,66 @@
 
 - **载入页**
 
+- 2-1
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E8%BD%BD%E5%85%A5.png)
 
 - **功能选择页**
+
+- 2-2
 
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E5%8A%9F%E8%83%BD.png)
 
 - **功能主页面**
 
+- 2-3
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E9%BB%91%E7%99%BD%E4%B8%8A%E8%89%B2.png)
+
+- 2-4
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E4%BF%AE%E5%A4%8D.png)
+
+- 2-5
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E5%AF%B9%E6%AF%94.png)
 
 - **图库选择页**
 
+- 2-6
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E9%BB%91%E7%99%BD%E4%B8%8A%E8%89%B2%E5%9B%BE%E5%BA%93.png)
+
+- 2-7
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E5%AF%B9%E6%AF%94%E5%9B%BE%E5%BA%93.png)
 
 - **选择成功页**
 
+- 2-8
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E9%BB%91%E7%99%BD%E5%8A%9F%E8%83%BD.png)
+
+- 2-9
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E5%AF%B9%E6%AF%94%E5%8A%9F%E8%83%BD.png)
+
+- 2-10
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E4%BF%AE%E5%A4%8D%E5%8A%9F%E8%83%BD.png)
 
 - **功能实现成功**
 
+- 2-11
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E4%BF%AE%E5%A4%8D%E6%88%90%E5%8A%9F.png)
+
+- 2-12
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E5%AF%B9%E6%AF%94%E6%88%90%E5%8A%9F.png)
+
+- 2-13
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E9%BB%91%E7%99%BD%E6%88%90%E5%8A%9F.png)
 
 
@@ -214,8 +262,16 @@ if response:
 
 - 测试
 
+- 3-1
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E9%BB%91%E7%99%BD.png)
+
+- 3-2
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/11.png)
+
+- 3-3
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/1.png)
 
 
@@ -263,7 +319,12 @@ if response:
 ```
 
 - 测试
+
+- 3-4
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/22.png)
+
+- 3-5
 
 ![image](https://github.com/kegen/API_ML_AI/blob/master/2.png)
 
@@ -304,9 +365,16 @@ if response:
 ```
 
 - 测试
+
+- 3-6
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/33.png)
 
+- 3-7
+
 ![image](https://github.com/kegen/API_ML_AI/blob/master/333.png)
+
+- 3-8
 
 ![image](https://github.com/kegen/API_ML_AI/blob/master/%E4%BF%AE%E5%A4%8D%E6%B5%8B%E8%AF%95.png)
 
@@ -328,13 +396,19 @@ if response:
 
 #### 百度人脸对比
 
+- 4-1
+
 - ![image](https://github.com/kegen/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E4%BB%B7%E6%A0%BC%E8%A1%A8.png)
 
 ##### face++人脸比对API：
 
+- 4-2
+
 - ![image](https://github.com/kegen/API_ML_AI/blob/master/face%2B%2B%E4%BB%B7%E6%A0%BC%E8%A1%A8.png)
 
 ##### 阿里人脸比对API：
+
+- 4-3
 
 - ![image](https://github.com/kegen/API_ML_AI/blob/master/%E9%98%BF%E9%87%8C%E4%BB%B7%E6%A0%BC%E8%A1%A8.png)
 
